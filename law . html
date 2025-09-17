@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Debates & Rights ⚖️</title>
+  <style>
+    body { font-family: Georgia, serif; background:#fdfdfd; margin:0; }
+    header { background:#222; color:#f7d708; text-align:center; padding:25px; }
+    nav { background:#444; text-align:center; padding:12px; }
+    nav a { color:white; margin:0 15px; text-decoration:none; }
+    section { padding:35px; }
+    .debate { border:2px solid #f7d708; padding:15px; margin-bottom:20px; border-radius:8px; }
+  </style>
+</head>
+<body>
+  <header><h1>Debates & Rights ⚖️</h1><p>Voice your opinion, learn your rights</p></header>
+  <nav>
+    <a href="index.html">Home</a> | 
+    <a href="career.html">Careers</a> | 
+    <a href="skills.html">Skills</a>
+  </nav>
+  <section>
+    <h2>Weekly Debates 🎤</h2>
+    <p>📅 Every Wednesday at 5 PM – Join law-inspired debates, youth parliament sessions & current affairs discussions.</p>
+    <div class="debate"><h3>🔥 Debate Topic</h3><p>"Should school uniforms be mandatory?"</p></div>
+    <div class="debate"><h3>📜 Know Your Rights</h3><p>Learn about child rights, student rights, and legal basics.</p></div>
+    <div class="debate"><h3>🤝 Mock Trials</h3><p>Play lawyer, witness, or judge for fun!</p></div>
+  </section>
+</body>
+</html>
