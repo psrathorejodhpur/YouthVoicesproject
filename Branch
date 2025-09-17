@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Youth Voices</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin:0; }
+    header { background:#3b82f6; color:white; padding:28px 16px; text-align:center; }
+    nav { background:#111827; text-align:center; padding:10px 0; }
+    nav a { color:white; margin:0 12px; text-decoration:none; font-weight:600; }
+    .hero { padding:28px 16px; text-align:center; }
+    .grid { display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); padding:16px; }
+    .card { padding:14px; border-radius:8px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); background:white; }
+    footer { text-align:center; padding:18px; background:#0f172a; color:#cbd5e1; margin-top:18px; }
+    body { background:#f8fafc; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="margin:0">Youth Voices</h1>
+    <p style="margin:6px 0 0">Building the next leaders, thinkers, and successful students.</p>
+  </header>
+
+  <nav>
+    <a href="#art">Art Lovers</a>
+    <a href="#career">Dream Careers</a>
+    <a href="#fun">For Fun</a>
+    <a href="#law">Law & Debates</a>
+    <a href="#skills">Skills & Growth</a>
+    <a href="#join">Join</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Welcome — Start today!</h2>
+    <p>Submit your art, story, debate lines, or join our weekly hangouts. Scroll down to explore sections & join.</p>
+  </section>
+
+  <section class="grid" role="list">
+    <div id="art" class="card">
+      <h3>🎨 Art Lovers</h3>
+      <p>Share drawings, poems, short comics, and more. Weekly theme & feature artist.</p>
+    </div>
+    <div id="career" class="card">
+      <h3>🚀 Dream Careers</h3>
+      <p>Quick career guides, mentor Q&As, and personality quizzes for job ideas.</p>
+    </div>
+    <div id="fun" class="card">
+      <h3>🎉 For Fun</h3>
+      <p>Puzzles, memes, quizzes, and game nights. Come laugh and win badges.</p>
+    </div>
+    <div id="law" class="card">
+      <h3>⚖ Law & Debates</h3>
+      <p>Mini-debates, 'Law in 60s', and student mock-cases. Build speaking skills.</p>
+    </div>
+    <div id="skills" class="card">
+      <h3>📚 Skills & Growth</h3>
+      <p>Study hacks, tiny challenges, and public-speaking practice for students.</p>
+    </div>
+  </section>
+
+  <section id="join" style="padding:18px">
+    <div class="card" style="max-width:800px;margin:0 auto">
+      <h3>Join / Submit</h3>
+      <p>Create a Google Form and paste its embed code here (see instructions in README).</p>
+      <p>Or share your piece by opening an issue in this repository (see CONTRIBUTING.md).</p>
+    </div>
+  </section>
+
+  <footer>
+    <small>© Youth Voices — student-led initiative</small>
+  </footer>
+</body>
+</html>
