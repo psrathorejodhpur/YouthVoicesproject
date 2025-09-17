@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For Fun 🎉</title>
+  <style>
+    body { font-family: Comic Sans MS, cursive; background:#ffe6f7; margin:0; }
+    header { background:#ff3399; color:white; padding:20px; text-align:center; }
+    nav { background:#333; text-align:center; padding:10px; }
+    nav a { color:white; margin:0 12px; text-decoration:none; }
+    section { padding:30px; text-align:center; }
+    .fun-card { display:inline-block; width:220px; margin:15px; padding:20px; background:white; border-radius:12px; box-shadow:0 6px 10px rgba(0,0,0,0.2); }
+  </style>
+</head>
+<body>
+  <header><h1>Fun Zone 🎉</h1><p>Games, memes, and laughter</p></header>
+  <nav>
+    <a href="index.html">Home</a> | 
+    <a href="art.html">Art</a> | 
+    <a href="career.html">Careers</a>
+  </nav>
+  <section>
+    <h2>Weekly Fun Nights 🎲</h2>
+    <p>📅 Every Sunday at 8 PM – Games, memes, competitions & prizes!</p>
+    <div class="fun-card"><h3>🎮 Game Battles</h3><p>Among Us, Minecraft, & more.</p></div>
+    <div class="fun-card"><h3>😂 Meme Contest</h3><p>Best meme wins badges.</p></div>
+    <div class="fun-card"><h3>🎤 Karaoke</h3><p>Laugh, sing, and cheer together!</p></div>
+  </section>
+</body>
+</html>
