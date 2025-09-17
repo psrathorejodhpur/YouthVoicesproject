@@ -1,143 +1,53 @@
    <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Youth Voices — Home</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youth Voices - Home</title>
   <style>
-    /* Basic reset */
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; } /* smooth scrolling for anchor links */
-    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height: 1.5; color: #222; }
-
-    /* Fixed top navbar (black bar) */
-    nav {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      background: #000;
-      color: #fff;
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      padding: 12px 16px;
-      z-index: 1000;
-      overflow-x: auto; /* good for small screens */
-      -webkit-overflow-scrolling: touch;
-    }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      padding: 8px 10px;
-      border-radius: 6px;
-      white-space: nowrap;
-      font-weight: 600;
-      font-size: 15px;
-    }
-    nav a:hover { background: rgba(255,255,255,0.06); text-decoration: underline; }
-
-    /* Make room under the fixed nav */
-    .page-content { padding-top: 68px; } /* equal roughly to nav height + space */
-
-    /* Layout */
-    .container { max-width: 900px; margin: 0 auto; padding: 20px; }
-
-    /* Section styling */
-    section {
-      padding: 48px 0;
-      border-bottom: 1px solid #ececec;
-    }
-    section h2 { margin-bottom: 12px; font-size: 24px; }
-    section p { color: #333; margin-bottom: 12px; }
-
-    /* Small helper: back-to-top */
-    .top-link {
-      display: inline-block;
-      margin-top: 8px;
-      text-decoration: none;
-      font-size: 14px;
-    }
-
-    /* Responsive tweaks */
-    @media (max-width: 520px) {
-      nav { padding: 10px; gap: 8px; }
-      nav a { font-size: 14px; padding: 7px 9px; }
-      .container { padding: 12px; }
-    }
+    body { font-family: Arial, sans-serif; margin:0; background:#f3f4f6; color:#111; }
+    header { background:#111827; color:white; padding:30px; text-align:center; }
+    nav { background:#1f2937; padding:15px; text-align:center; }
+    nav a { color:white; margin:0 12px; text-decoration:none; font-weight:600; }
+    nav a:hover { color:#fbbf24; }
+    main { padding:40px; text-align:center; }
+    .card-container { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:20px; margin-top:30px; }
+    .card { background:white; padding:20px; border-radius:12px; box-shadow:0 4px 8px rgba(0,0,0,0.1); transition:0.3s; }
+    .card:hover { transform:translateY(-6px); }
   </style>
 </head>
-
 <body>
-  <!-- NAVBAR: edit links here if you want to add more -->
+  <header>
+    <h1>Youth Voices 🌍</h1>
+    <p>A platform by students, for students.</p>
+  </header>
+
   <nav>
-    <a href="#home">Home</a>
-    <a href="#art">Art Lovers</a>
-    <a href="#careers">Dream Careers</a>
-    <a href="#fun">For Fun</a>
-    <a href="#law">Law & Debates</a>
-    <a href="#skills">Skills & Growth</a>
+    <a href="index.html">Home</a>
+    <a href="art.html">Art Lovers</a>
+    <a href="career.html">Dream Careers</a>
+    <a href="fun.html">For Fun</a>
+    <a href="law.html">Law & Debates</a>
+    <a href="skills.html">Skills & Growth</a>
+    <a href="join.html">Join</a>
+    <a href="extra1.html">Extra 1</a>
+    <a href="extra2.html">Extra 2</a>
+    <a href="extra3.html">Extra 3</a>
   </nav>
 
-  <div class="page-content">
-    <main class="container">
-      <!-- HOME / top -->
-      <section id="home">
-        <h2>Welcome to Youth Voices</h2>
-        <p>Hi! This is your homepage. Use the black menu above to jump to each section. No extra files needed — everything is in one page.</p>
-        <a class="top-link" href="#home">You are at top</a>
-      </section>
+  <main>
+    <h2>Welcome!</h2>
+    <p>Select a section below to explore ideas, creativity, and opportunities 🚀</p>
 
-      <!-- ART section -->
-      <section id="art">
-        <h2>🎨 Art Lovers</h2>
-        <p>Share drawings, poems, comics, weekly challenges, and gallery posts. Paste your images or links here and add small captions.</p>
-        <p>Ideas: monthly theme, art contest, tutorial video links.</p>
-        <a class="top-link" href="#home">⬆ Back to top</a>
-      </section>
-
-      <!-- CAREERS section -->
-      <section id="careers">
-        <h2>🚀 Dream Careers</h2>
-        <p>Give career advice, interviews with mentors, short quizzes about jobs, and how to start working toward your dream career.</p>
-        <p>Ideas: "Career of the month", study tips, guest mentor Q&amp;A.</p>
-        <a class="top-link" href="#home">⬆ Back to top</a>
-      </section>
-
-      <!-- FUN section -->
-      <section id="fun">
-        <h2>🎉 For Fun</h2>
-        <p>Puzzles, memes, quick quizzes, and game nights. Keep this section light and playful so everyone enjoys visiting.</p>
-        <a class="top-link" href="#home">⬆ Back to top</a>
-      </section>
-
-      <!-- LAW & DEBATES -->
-      <section id="law">
-        <h2>⚖️ Law & Debates</h2>
-        <p>Mini-debates, simple law facts, mock trial scripts, "Law in 60 seconds" posts. Great place to practice speaking and thinking fast.</p>
-        <a class="top-link" href="#home">⬆ Back to top</a>
-      </section>
-
-      <!-- SKILLS & GROWTH -->
-      <section id="skills">
-        <h2>📚 Skills & Growth</h2>
-        <p>Workshops, study tips, time-management ideas, language practice, presentations, and challenge checklists.</p>
-        <p>Ideas: "This week practice", watchlist, reading goals.</p>
-        <a class="top-link" href="#home">⬆ Back to top</a>
-      </section>
-
-      <!-- Footer or extra info -->
-      <section id="contact">
-        <h2>Contact / Notes</h2>
-        <p>If you want to add content, edit this file and paste images or text under the right section. If the menu still does not move, make sure you're editing the same `index.html` file that your site uses (the one published by GitHub Pages).</p>
-        <p>Tip: <strong>nav links like <code>href="#art"</code></strong> must match the section id <strong><code>id="art"</code></strong>.</p>
-      </section>
-    </main>
-  </div>
-
+    <div class="card-container">
+      <div class="card"><h3>🎨 Art Lovers</h3><p>Share drawings, music, poems & creativity.</p></div>
+      <div class="card"><h3>🚀 Dream Careers</h3><p>Guides & advice for building your dream job.</p></div>
+      <div class="card"><h3>🎉 For Fun</h3><p>Memes, quizzes, jokes, games, and more!</p></div>
+      <div class="card"><h3>⚖️ Law & Debates</h3><p>Voice your opinion & learn about rights.</p></div>
+      <div class="card"><h3>📚 Skills & Growth</h3><p>Boost your knowledge, habits, and talents.</p></div>
+      <div class="card"><h3>🤝 Join</h3><p>Get involved and be part of Youth Voices.</p></div>
+    </div>
+  </main>
 </body>
-</html>
-</html>
-  
-  
+                           </html>
+         
