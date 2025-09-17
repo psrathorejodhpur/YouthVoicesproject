@@ -2,29 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Debates & Rights ⚖️</title>
-  <style>
-    body { font-family: Georgia, serif; background:#fdfdfd; margin:0; }
-    header { background:#222; color:#f7d708; text-align:center; padding:25px; }
-    nav { background:#444; text-align:center; padding:12px; }
-    nav a { color:white; margin:0 15px; text-decoration:none; }
-    section { padding:35px; }
-    .debate { border:2px solid #f7d708; padding:15px; margin-bottom:20px; border-radius:8px; }
-  </style>
+  <title>Law & Debates ⚖️</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header><h1>Debates & Rights ⚖️</h1><p>Voice your opinion, learn your rights</p></header>
   <nav>
-    <a href="index.html">Home</a> | 
-    <a href="career.html">Careers</a> | 
-    <a href="skills.html">Skills</a>
+    <a href="index.html">🏠 Home</a>
+    <a href="art.html">🎨 Art Lovers</a>
+    <a href="career.html">💼 Dream Careers</a>
+    <a href="fun.html">🎮 Fun</a>
+    <a href="law.html">⚖️ Law & Debates</a>
+    <a href="skill.html">📚 Skills & Growth</a>
+    <a href="extra1.html">✨ Extra 1</a>
+    <a href="extra2.html">🌟 Extra 2</a>
+    <a href="extra3.html">🚀 Extra 3</a>
   </nav>
+
+  <h1>⚖️ Law & Debates</h1>
   <section>
-    <h2>Weekly Debates 🎤</h2>
-    <p>📅 Every Wednesday at 5 PM – Join law-inspired debates, youth parliament sessions & current affairs discussions.</p>
-    <div class="debate"><h3>🔥 Debate Topic</h3><p>"Should school uniforms be mandatory?"</p></div>
-    <div class="debate"><h3>📜 Know Your Rights</h3><p>Learn about child rights, student rights, and legal basics.</p></div>
-    <div class="debate"><h3>🤝 Mock Trials</h3><p>Play lawyer, witness, or judge for fun!</p></div>
+    <p>Learn about rights, participate in debates, and discuss important issues.</p>
   </section>
 </body>
 </html>
