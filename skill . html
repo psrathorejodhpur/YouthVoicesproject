@@ -3,28 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Skills & Growth 📚</title>
-  <style>
-    body { font-family: Tahoma, sans-serif; margin:0; background:#e6fffa; }
-    header { background:#008080; color:white; padding:25px; text-align:center; }
-    nav { background:#004d4d; text-align:center; padding:10px; }
-    nav a { color:white; margin:0 10px; text-decoration:none; }
-    section { padding:30px; }
-    .skill-card { background:white; padding:20px; margin-bottom:20px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header><h1>Skills & Growth 📚</h1><p>Boost your knowledge, habits, and talents</p></header>
   <nav>
-    <a href="index.html">Home</a> | 
-    <a href="fun.html">Fun</a> | 
-    <a href="career.html">Careers</a>
+    <a href="index.html">🏠 Home</a>
+    <a href="art.html">🎨 Art Lovers</a>
+    <a href="career.html">💼 Dream Careers</a>
+    <a href="fun.html">🎮 Fun</a>
+    <a href="law.html">⚖️ Law & Debates</a>
+    <a href="skill.html">📚 Skills & Growth</a>
+    <a href="extra1.html">✨ Extra 1</a>
+    <a href="extra2.html">🌟 Extra 2</a>
+    <a href="extra3.html">🚀 Extra 3</a>
   </nav>
+
+  <h1>📚 Skills & Growth</h1>
   <section>
-    <h2>Growth Hangouts 💡</h2>
-    <p>📅 Every Monday at 7 PM – Productivity tips, skill-building workshops, and challenges.</p>
-    <div class="skill-card"><h3>🧠 Mindset Growth</h3><p>Daily habits and mental strength.</p></div>
-    <div class="skill-card"><h3>🖥️ Digital Skills</h3><p>Web design, coding, and more.</p></div>
-    <div class="skill-card"><h3>💬 Communication</h3><p>Public speaking & confidence boosters.</p></div>
+    <p>Boost your knowledge, learn new skills, and grow every day.</p>
   </section>
 </body>
 </html>
